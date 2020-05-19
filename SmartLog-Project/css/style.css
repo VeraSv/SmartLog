@@ -124,12 +124,16 @@ header {
 padding-top: 20px;
 
   }
-  .menu span {
+  .menu a {
       font-size: 17px;
       color: black;
       line-height: 15.13px;
       letter-spacing: 0.025;
       margin-left: 32px;
+  }
+
+  .menu a:hover {
+      color:#00acf2;
   }
 
   .menu, .logo {
