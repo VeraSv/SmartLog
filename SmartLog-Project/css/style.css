@@ -274,7 +274,7 @@ padding-top: 20px;
 
 .aboutCompany > div:first-child span:nth-child(2) {
     color: white;
-    display: inline-block;
+    display: block;
     font-size: 90px;
     line-height: 80px;
     margin-top: 80px;
@@ -706,7 +706,6 @@ float: right;
 }
 
 .advantages {
-    width: 1170px;
     height: 745px;
     background-image: url('../img/fond-4.png');
     background-repeat: no-repeat;
@@ -1242,13 +1241,12 @@ footer .socialMadia a {
     }
 }
 
-
-@media (max-width: 767px) {
-
+@media (max-width: 991px) {
     .container {
-        width: 100%;
+        width: 750px;
     }
 
+    
     header .logIn .workTime,  header .logIn .address {
         display: none;
     }
@@ -1259,7 +1257,114 @@ footer .socialMadia a {
 
     header  .menu nav.navbar {
         display: block;
+       margin-left:290px;
+        
     }
+
+    .menu li {
+  
+    height: 25px;
+    }
+    .menu .active {
+    
+         padding-bottom: 0; 
+    }
+
+   .recording {
+       height: 545px;
+   }
+
+    .recording > div {
+        left:-20px;
+        background-image: none;
+        top:105px;
+    }
+
+    .aboutCompany {
+        text-align: center;
+    }
+
+    .aboutCompany > div:first-child {
+        padding-top: 73px;
+    }
+
+    .aboutCompany >div:first-child {
+        padding-left:45px;
+    }
+    .aboutCompany > div:nth-child(2) p:first-child {
+        padding-top: 60px;
+    }
+
+    .aboutCompany > div:nth-child(2) input {
+      margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .info > div {
+        margin-top: 57px;
+    }
+
+    .info span[class^='icon'] {
+        font-size: 32px;
+    }
+
+    .info span:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .info span:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .info span:nth-child(2)::after {
+        padding-bottom: 9px;
+        }
+
+        .info {
+            height: 215px;
+        }
+
+        .services .list ul {
+            margin-top: 35px;
+            margin-left: 120px;
+        }
+
+        .services .list ul li {
+            margin-left: 10px;;
+        }
+
+        .services .carousel-inner {
+            width: 90%;
+        }
+
+        .nameService > p {
+            width: 90%;
+            margin-left: 25px;
+        }
+
+        .services > div {
+            margin-top: 50px;
+        }
+
+        .calculation > span:first-child {
+            padding-top: 55px;
+        }
+
+        .calculator {
+            height: 779px;
+        }
+    
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    .container {
+        width: 100%;
+    }
+
 
 }
 
