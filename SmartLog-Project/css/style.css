@@ -994,7 +994,7 @@ float: right;
 
 iframe {
     height:535px;
-    width: 1170px;
+    width: 100%;
 }
 
 footer {
@@ -1040,7 +1040,7 @@ footer .col:nth-child(2) .listServices {
     padding-top: 40px;
 }
 
-footer .col:nth-child(2) .listServices > div span:nth-child(2) {
+footer .col:nth-child(2) .listServices > div a {
     font-size: 18px;
     line-height: 20px;
     color: #00acf2;
@@ -1183,6 +1183,62 @@ footer .socialMadia a {
 
     .calculator >div:first-child {
         display: none;
+    }
+
+    .advantages .titleItem:first-child {
+        padding-top: 90px;
+    }
+
+    .programms span {
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 50px;
+    }
+
+    .news img {
+        width: 295px;
+    }
+
+    .news .row {
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+    .news {
+        height: 712px;
+    }
+
+    .news .title {
+        padding-top: 80px;
+    }
+
+    .reviews {
+        height: 627px;
+    }
+
+    .reviews .carousel-item {
+        margin:0 93px;
+       
+    }
+
+    .reviews .title {
+        padding-top: 67px;
+    }
+
+    footer .logotext div:nth-child(2) span {
+        font-size: 11px;
+    }
+
+    footer .logo span {
+        font-size: 26px;
+    }
+
+    footer .col:nth-child(2) .listServices > div span:first-child {
+        display: none;
+    }
+
+    footer .socialMadia a {
+        padding-left: 18px;
     }
 }
 
