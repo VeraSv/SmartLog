@@ -75,8 +75,17 @@ header {
 }
 
 .lan {
-    padding-left: 0;
+    padding: 0;
+    text-align: right;
 }
+
+.lan img {
+    padding-right: 5px;
+    padding-bottom: 10px;
+    width: 25px;
+    height: 30px;
+}
+
 .reg {
     padding-right: 0;
 }
@@ -1172,6 +1181,10 @@ footer .socialMadia a {
         text-align: center;
     }
 
+    .services .carousel-control-prev {
+        left: 314px;
+    }
+
     .services {
         height: 1285px;
     }
@@ -1288,6 +1301,14 @@ footer .socialMadia a {
         padding-top: 73px;
     }
 
+    .aboutCompany > div:first-child span:first-child {
+        font-size: 38px;
+    }
+
+    .aboutCompany > div:first-child span:nth-child(2) {
+        font-size: 61px;
+    }
+
     .aboutCompany >div:first-child {
         padding-left:45px;
     }
@@ -1353,19 +1374,28 @@ footer .socialMadia a {
         .calculator {
             height: 779px;
         }
+        .services .carousel-control-prev {
+            left: 272px;
+        }
+        .services .nameService {
+            margin-left: 20px;
+        }
     
         .news {
             height: 950px;
             
         }
 
-        .news .col:nth-child(3) {
+        .news .row > div:nth-child(3) {
             margin: 0 auto;
         }
+        
 
         .news .row {
             margin-bottom: 14px;
+            margin-left: 10px;
         }
+
 
         .reviews .carousel-item {
             width: 550px;
@@ -1575,7 +1605,7 @@ padding-top:25px;
     padding-bottom: 0;
 }
 
-.news .col {
+.news .row >div {
     margin: 0 auto;
 }
 
@@ -1644,5 +1674,73 @@ footer .copyright {
 footer .col:nth-child(2) .listServices:nth-child(3) {
     padding-bottom: 0px;
 }
+}
+
+@media (max-width: 576px) {
+    header .menu nav.navbar {
+        margin-left: 95px;
+    }
+
+    .recording .nameCompany span:first-child, .recording .nameCompany span:nth-child(2) {
+        font-size: 78px;
+    }
+
+    .recording > div span.label {
+        left: 62px;
+        line-height: 65px;
+        top:-60px
+    }
+
+    .recording div input {
+        left: 124px;
+    }
+    .aboutCompany >div:first-child {
+        padding-left: 0px;
+    }
+
+    .aboutCompany > div:nth-child(2) {
+         padding-left: 15px;
+    }
+
+    .services .nameService {
+     margin-left: 0px; 
+    }
+
+    .advantages .row  {
+        padding-left: 70px;
+       
+    }
+
+    .advantages .titleItem:nth-child(2) {
+        padding-bottom: 5px;
+    }
+
+    .advantages .titleItem:first-child {
+        padding-top: 10px;
+    }
+
+    .advantages .row {
+        margin-bottom: 20px;
+    }
+
+    .programms {
+        text-align: center;
+    }
+
+    .news {
+        height: 1200px;
+    }
+    
+    .news .title {
+        margin-top: 150px;
+    }
+   
+    .reviews .carousel-item {
+        width: 400px;
+    }
+    footer .copyright {
+        padding-top: 40px;
+    }
+    
 }
 
